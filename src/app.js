@@ -38,14 +38,14 @@ app.get('',(req,res)=>{
 app.get('/about',(req,res)=>{
     res.render('about',{
         title:'About',
-        name:'HeatherA'
+        name:'Heather'
     })
 })
 
 app.get('/help',(req,res)=>{
     res.render('help',{
         title:'Ironman',
-        name:'Dushbag'
+        name:'Heather'
     })
 })
 
